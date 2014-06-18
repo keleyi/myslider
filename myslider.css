@@ -1,0 +1,4 @@
+﻿.keleyimyslider{height:25px;line-height:25px;border:#ccc 1px solid;overflow:hidden;}
+.keleyimyslider li{height:25px;padding-left:10px;}
+.keleyimyslider ul,li{list-style-type:none;margin:0px;padding:0px;}
+.mysliderstatus{float:left;width:18px;}
