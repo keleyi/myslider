@@ -1,13 +1,13 @@
 ﻿{
 "name": "myslider",
 "title": "myslider",
-"description": "A jQuery plugin myslider.Very simple to use.",
+"description": "A jQuery plugin.Very simple to use.",
 "keywords": [
 "myslider",
 "UI",
 "jQuery"
 ],
- "version": "0.1.0",
+ "version": "0.1.1",
  "author": {
 "name": "KeLeyi",
 "url": "http://keleyi.com"

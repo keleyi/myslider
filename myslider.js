@@ -1,6 +1,6 @@
 ﻿/*!
 * myslider
-* version: 0.1.0
+* version: 0.1.1
 * Copyright (c) 2014 KeLeyi
 * http://keleyi.com
 * http://keleyi.com/jq/myslider/
@@ -10,7 +10,8 @@
     $.fn.myslider = function (options) {
         var settings = $.extend({
             width: '100%'
-            ,millisec:'1000'
+            , millisec: '1000'
+            , animatespeed: '500'
         }, options);
 
         var keleyiscrollobj = $(this);
@@ -25,7 +26,7 @@
                if (keleyiscrollstatus.text() == '↑') {
                    keleyiscrollobj.find("ul:first").animate({
                        marginTop: "-25px"
-                   }, 500, function () {
+                   }, settings.animatespeed, function () {
                        $(this).css({ marginTop: "0px" }).find("li:first").appendTo(this);
                    });
                }
