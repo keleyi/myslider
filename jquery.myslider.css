@@ -1,11 +1,12 @@
 ﻿/*!
 * myslider
-* version: 0.1.1
+* version: 0.1.2
 * Copyright (c) 2014 KeLeyi
 * http://keleyi.com
 * http://keleyi.com/jq/myslider/
 */
 .keleyimyslider{height:25px;line-height:25px;border:#ccc 1px solid;overflow:hidden;}
-.keleyimyslider li{height:25px;padding-left:10px;}
+.keleyimyslider li{height:25px;padding-left:18px;}
 .keleyimyslider ul,li{list-style-type:none;margin:0px;padding:0px;}
 .mysliderstatus{float:left;width:18px;}
+.keleyimyslider li a{font-size:14px;}
