@@ -1,6 +1,6 @@
 ﻿/*!
 * myslider
-* version: 0.1.2
+* version: 0.1.3
 * Copyright (c) 2014 KeLeyi
 * http://keleyi.com
 * http://keleyi.com/jq/myslider/
@@ -15,6 +15,7 @@
             , animatespeed: '500'
             , direction: 'up'
             , fontSize: "14px"
+            ,li_style:{}
         }, options);
 
         var keleyiscrollobj = $(this);
@@ -32,7 +33,8 @@
         .height(settings.height)
         .css("line-height", settings.height);
         mysliderul.find("li").height(settings.height).css({ "font-size": settings.fontSize });
-        mysliderul.find("a").css({ "font-size": settings.fontSize });
+        mysliderul.find("li").css(settings.li_style);
+        mysliderul.find("a").css({ "font-size": settings.fontSize });       
 
         function KeleyiScroll(keleyiscrollobj, keleyiscrollstatus) {
             setInterval(
