@@ -12,7 +12,7 @@
             width: '100%'
             , height: '25px'
             , millisec: '1000'
-            , animatespeed: '500'
+            , animatespeed: 500
             , direction: 'up'
             , fontSize: "14px"
             ,li_style:{}
@@ -34,7 +34,7 @@
         .css("line-height", settings.height);
         mysliderul.find("li").height(settings.height).css({ "font-size": settings.fontSize });
         mysliderul.find("li").css(settings.li_style);
-        mysliderul.find("a").css({ "font-size": settings.fontSize });       
+        mysliderul.find("a").css({ "font-size": settings.fontSize });
 
         function KeleyiScroll(keleyiscrollobj, keleyiscrollstatus) {
             setInterval(
